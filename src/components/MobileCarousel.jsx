@@ -43,8 +43,8 @@ export const MobileCarousel = () => {
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
-      {/* Phone Mockup Frame - Dimensioned to match exact 9:20 screenshot aspect ratio */}
-      <div className="relative w-[265px] sm:w-[285px] md:w-[295px] lg:w-[305px] h-[560px] sm:h-[600px] md:h-[620px] lg:h-[640px] bg-slate-950 rounded-[44px] p-2.5 shadow-2xl shadow-purple-950/20 border-4 border-slate-800/80 ring-1 ring-white/10 select-none group">
+      {/* Compact Mobile Phone Mockup Frame so Footer is always 100% visible */}
+      <div className="relative w-[250px] sm:w-[270px] md:w-[280px] lg:w-[290px] h-[510px] sm:h-[540px] md:h-[560px] lg:h-[575px] bg-slate-950 rounded-[42px] p-2.5 shadow-2xl shadow-purple-950/20 border-4 border-slate-800/80 ring-1 ring-white/10 select-none group">
         
         {/* Top Notch Cutout */}
         <div className="absolute top-3.5 left-1/2 -translate-x-1/2 w-20 h-3.5 bg-black rounded-full z-30 flex items-center justify-center gap-1.5 pointer-events-none">
@@ -70,9 +70,9 @@ export const MobileCarousel = () => {
           <ChevronRight className="w-4 h-4" />
         </button>
 
-        {/* Screen Viewport with Dynamic Background & Seamless Ambient Side Glow */}
+        {/* Screen Viewport with Dynamic Background & Ambient Blur */}
         <div
-          className="relative w-full h-full rounded-[34px] overflow-hidden flex flex-col justify-between transition-colors duration-500"
+          className="relative w-full h-full rounded-[32px] overflow-hidden flex flex-col justify-between transition-colors duration-500"
           style={{ backgroundColor: activeSlide.bg }}
         >
           <div className="relative w-full h-full overflow-hidden">
