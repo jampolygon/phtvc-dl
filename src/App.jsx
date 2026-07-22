@@ -3,6 +3,8 @@ import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
 
 export default function App() {
+  const logoUrl = `${import.meta.env.BASE_URL}tvicon.png`;
+
   return (
     <div className="h-screen w-screen bg-[#f7f7f9] text-slate-800 flex flex-col justify-between selection:bg-purple-600 selection:text-white font-sans overflow-y-auto lg:overflow-hidden">
       <div>
@@ -18,7 +20,7 @@ export default function App() {
           
           {/* Left Brand */}
           <div className="flex items-center gap-2 opacity-75">
-            <img src="/tvicon.png" alt="PHTVC Logo" className="w-4 h-4 object-contain" />
+            <img src={logoUrl} alt="PHTVC Logo" className="w-4 h-4 object-contain" />
             <span className="font-bold text-slate-800">PHTVC</span>
             <span>•</span>
             <span>Philippine TV Channels</span>
@@ -41,7 +43,7 @@ export default function App() {
               <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="12" cy="12" r="10" />
                 <line x1="2" y1="12" x2="22" y2="12" />
-                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z" />
               </svg>
             </a>
 
