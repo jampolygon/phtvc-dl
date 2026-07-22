@@ -6,7 +6,7 @@ export default function App() {
   const logoUrl = `${import.meta.env.BASE_URL}tvicon.png`;
 
   return (
-    <div className="h-screen w-screen bg-[#f7f7f9] text-slate-800 flex flex-col justify-between selection:bg-purple-600 selection:text-white font-sans overflow-y-auto lg:overflow-hidden">
+    <div className="min-h-screen w-full bg-[#f7f7f9] text-slate-800 flex flex-col justify-between selection:bg-purple-600 selection:text-white font-sans">
       <div>
         <Header />
         <main>
@@ -14,20 +14,20 @@ export default function App() {
         </main>
       </div>
 
-      {/* Minimal Footer with Author Name & Social Links */}
-      <footer className="w-full border-t border-slate-200/80 bg-white/90 backdrop-blur-sm py-2 mt-auto z-30">
+      {/* Author Footer (Always 100% visible at the bottom center) */}
+      <footer className="w-full border-t border-slate-200/80 bg-white/95 backdrop-blur-sm py-2.5 mt-auto z-30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-500">
           
           {/* Left Brand */}
-          <div className="flex items-center gap-2 opacity-75">
+          <div className="flex items-center gap-2 opacity-80">
             <img src={logoUrl} alt="PHTVC Logo" className="w-4 h-4 object-contain" />
             <span className="font-bold text-slate-800">PHTVC</span>
             <span>•</span>
             <span>Philippine TV Channels</span>
           </div>
 
-          {/* Center Author & Social Links (70% opacity, 100% on hover) */}
-          <div className="flex items-center gap-2 text-slate-700 font-semibold opacity-70 hover:opacity-100 transition-opacity">
+          {/* Center Author Name & Social Links */}
+          <div className="flex items-center gap-2.5 text-slate-700 font-semibold opacity-85 hover:opacity-100 transition-opacity">
             <span className="font-bold text-slate-900">JP Canoy</span>
             <span className="text-slate-400">•</span>
             
@@ -43,7 +43,7 @@ export default function App() {
               <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="12" cy="12" r="10" />
                 <line x1="2" y1="12" x2="22" y2="12" />
-                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z" />
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
               </svg>
             </a>
 
@@ -77,7 +77,7 @@ export default function App() {
           </div>
 
           {/* Right Copyright */}
-          <div className="text-slate-400 text-[11px] opacity-70">
+          <div className="text-slate-400 text-[11px] opacity-75">
             © {new Date().getFullYear()} PHTVC
           </div>
 
