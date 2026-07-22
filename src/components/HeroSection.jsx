@@ -4,11 +4,13 @@ import { QRCodeSVG } from 'qrcode.react';
 import { Download, ShieldCheck, Smartphone, Cloud, Palette } from 'lucide-react';
 
 export const HeroSection = () => {
-  const downloadUrl = "/PHTVC_v1.0_Stable.apk";
+  const baseUrl = import.meta.env.BASE_URL;
+  const downloadUrl = `${baseUrl}PHTVC_v1.0_Stable.apk`;
   
+  // Direct HTTPS URL for QR Code scanning on mobile phone camera
   const fullDownloadUrl = typeof window !== 'undefined'
-    ? `${window.location.origin}${downloadUrl}`
-    : downloadUrl;
+    ? `${window.location.origin}${baseUrl}PHTVC_v1.0_Stable.apk`
+    : 'https://jampolygon.github.io/phtvc-dl/PHTVC_v1.0_Stable.apk';
 
   return (
     <section className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-2 lg:py-4 flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-6">
@@ -26,10 +28,10 @@ export const HeroSection = () => {
           Stream live Philippine TV anytime, anywhere. Discover your favorite channels, sync your watch history across devices, personalize the app with beautiful themes, and enjoy a clean, fast streaming experience with no subscription required.
         </p>
 
-        {/* Action Area: Material You Download APK + Slightly Enlarged Inline QR Code */}
+        {/* Action Area: Material You Download APK + Inline Direct Scan QR Code */}
         <div className="w-full pt-1 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
           
-          {/* Download APK Button (Material You Pill Style) */}
+          {/* Download APK Button */}
           <div className="flex-1 flex flex-col gap-2.5">
             <a
               href={downloadUrl}
@@ -66,7 +68,7 @@ export const HeroSection = () => {
             </div>
           </div>
 
-          {/* Slightly Enlarged Inline QR Code Container */}
+          {/* Inline Scannable Direct APK QR Code */}
           <div className="p-3.5 bg-white rounded-3xl border border-slate-200 shadow-md flex flex-col items-center justify-center flex-shrink-0">
             <div className="bg-slate-50 p-2.5 rounded-2xl border border-slate-100">
               <QRCodeSVG
@@ -77,7 +79,7 @@ export const HeroSection = () => {
               />
             </div>
             <span className="text-[10px] font-extrabold text-slate-600 mt-1.5 tracking-tight">
-              Scan to Mobile
+              Scan to Download
             </span>
           </div>
 
