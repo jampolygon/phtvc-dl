@@ -1,12 +1,14 @@
 import React from 'react';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
+import { NotificationToast } from './components/NotificationToast';
 
 export default function App() {
   const logoUrl = `${import.meta.env.BASE_URL}tvicon.png`;
 
   return (
-    <div className="min-h-screen w-full bg-[#f7f7f9] text-slate-800 flex flex-col justify-between selection:bg-purple-600 selection:text-white font-sans">
+    <div className="min-h-screen w-full bg-[#f7f7f9] text-slate-800 flex flex-col justify-between selection:bg-purple-600 selection:text-white font-sans relative">
+      <NotificationToast />
       <div>
         <Header />
         <main>
