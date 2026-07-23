@@ -1,11 +1,11 @@
 {
-  "versionCode": 46,
-  "latestVersionCode": 46,
-  "versionName": "1.1.2 Test Mandatory",
-  "latestVersionName": "1.1.2 Test Mandatory",
+  "versionCode": 45,
+  "latestVersionCode": 45,
+  "versionName": "1.1.1 Test Optional",
+  "latestVersionName": "1.1.1 Test Optional",
   "apkUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "downloadUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
-  "forceUpdate": true,
-  "changelog": "Mandatory Security & Stability Update: Back button and Close are disabled until updated.",
-  "updateMessage": "Mandatory Security & Stability Update: Back button and Close are disabled until updated."
+  "forceUpdate": false,
+  "changelog": "Test Optional Update: You can close this update dialog or press back.",
+  "updateMessage": "Test Optional Update: You can close this update dialog or press back."
 }
