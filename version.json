@@ -1,7 +1,12 @@
 {
-  "versionCode": 43,
-  "versionName": "1.0.1",
+  "versionCode": 44,
+  "latestVersionCode": 44,
+  "versionName": "1.1 Stable",
+  "latestVersionName": "1.1 Stable",
   "apkUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
+  "downloadUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "forceUpdate": false,
-  "changelog": "Version 1.0.1 Stable: In-App Updates, Changelogs, Play Protect Guide, and performance fixes."
+  "updateTitle": "Version 1.1 Stable Available",
+  "changelog": "PHTVC 1.1 Stable Highlights:\n• Generic 2-3 letter channel badges for legal safety\n• Broadcaster Non-Affiliation legal disclaimer & takedown link\n• 1-Tap Account Deletion request under Settings\n• Asynchronous player disconnect on network loss\n• In-App OTA Update alerts (Mandatory & Optional)",
+  "updateMessage": "PHTVC 1.1 Stable is now available with legal safety enhancements, generic channel badges, account deletion options, and stability fixes."
 }
