@@ -1,11 +1,11 @@
 {
-  "versionCode": 44,
-  "latestVersionCode": 44,
-  "versionName": "1.0.2",
-  "latestVersionName": "1.0.2",
+  "versionCode": 45,
+  "latestVersionCode": 45,
+  "versionName": "1.1.1 Test Optional",
+  "latestVersionName": "1.1.1 Test Optional",
   "apkUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "downloadUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "forceUpdate": false,
-  "changelog": "Version 1.0.2 Test OTA Update: Test Update Detection system.",
-  "updateMessage": "Version 1.0.2 Test OTA Update: Test Update Detection system."
+  "changelog": "Test Optional Update: You can close this update dialog or press back.",
+  "updateMessage": "Test Optional Update: You can close this update dialog or press back."
 }
