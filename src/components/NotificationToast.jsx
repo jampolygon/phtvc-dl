@@ -47,7 +47,7 @@ export const NotificationToast = () => {
           
           {/* Material You Pill Tag */}
           <div className="px-3 py-1 bg-purple-600 text-white text-[11px] font-extrabold rounded-full shadow-sm shadow-purple-600/30">
-            New Release v1.0.1
+            New Release v1.2
           </div>
 
           {/* Dismiss Button */}
@@ -64,10 +64,10 @@ export const NotificationToast = () => {
         {/* Notification Body */}
         <div className="text-left space-y-1">
           <h4 className="text-sm font-extrabold text-slate-900 tracking-tight">
-            PHTVC Version 1.0.1 is live!
+            PHTVC Version 1.2 Stable is live!
           </h4>
           <p className="text-xs text-slate-600 font-medium leading-snug">
-            Featuring In-App Updates checker, built-in Changelogs, Play Protect guide, and performance fixes.
+            Featuring Audio Focus music auto-pause, 5-min auto-exit, hardware volume/brightness sync, collapsible categories, and Wuthering Waves themes.
           </p>
         </div>
 
