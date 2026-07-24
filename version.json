@@ -1,12 +1,12 @@
 {
-  "versionCode": 44,
-  "latestVersionCode": 44,
-  "versionName": "1.1 Stable",
-  "latestVersionName": "1.1 Stable",
+  "versionCode": 45,
+  "latestVersionCode": 45,
+  "versionName": "1.2 Stable",
+  "latestVersionName": "1.2 Stable",
   "apkUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "downloadUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "forceUpdate": false,
-  "updateTitle": "Version 1.1 Stable Available",
-  "changelog": "PHTVC 1.1 Stable Highlights:\n• Generic 2-3 letter channel badges for legal safety\n• Broadcaster Non-Affiliation legal disclaimer & takedown link\n• 1-Tap Account Deletion request under Settings\n• Asynchronous player disconnect on network loss\n• In-App OTA Update alerts (Mandatory & Optional)",
-  "updateMessage": "PHTVC 1.1 Stable is now available with legal safety enhancements, generic channel badges, account deletion options, and stability fixes."
+  "updateTitle": "Version 1.2 Stable Available",
+  "changelog": "PHTVC 1.2 Stable Highlights:\n• Audio Focus music auto-pause integration\n• 5-Minute background inactivity auto-exit\n• Collapsible Philippine & International channels sections\n• Real-time system volume and brightness sync\n• Rover and Phrolova core theme presets\n• Player error screens with full gesture blockers",
+  "updateMessage": "PHTVC 1.2 Stable is now available with audio focus background music auto-pausing, 5-minute auto-exit, hardware volume/brightness slider sync, collapsible categories, and Rover/Phrolova custom themes."
 }
