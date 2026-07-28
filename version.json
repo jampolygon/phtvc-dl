@@ -1,12 +1,12 @@
 {
-  "versionCode": 45,
-  "latestVersionCode": 45,
-  "versionName": "1.2 Stable",
-  "latestVersionName": "1.2 Stable",
+  "versionCode": 46,
+  "latestVersionCode": 46,
+  "versionName": "1.2.1 Stable",
+  "latestVersionName": "1.2.1 Stable",
   "apkUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "downloadUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "forceUpdate": true,
-  "updateTitle": "Important: APK Downloads Pausing Soon",
-  "changelog": "⚠️ Download Notice:\n• Direct APK downloads will be paused from July 27, 2026 (Monday) onwards.\n• PHTVC will enter indefinite maintenance mode after 3 days.\n• Version 1.2 includes audio focus auto-pause, 5-min auto-exit, & theme fixes.",
-  "updateMessage": "Direct APK downloads will be paused starting July 27, 2026 (Monday) onwards. Please update to Version 1.2 Stable now before downloads are paused."
+  "updateTitle": "Important: Version 1.2.1 Update",
+  "changelog": "⚠️ Version 1.2.1 Update:\n• Full Picture-in-Picture (PiP) mode support.\n• Screen lock gestures blocker with floating unlock overlay.\n• Optimized player lifecycle during lock/unlock transitions.\n• Settings 6-card theme layout redesign.\n• Adaptive tablet grid layout columns.\n• Light theme contrast fixes.\n• International channels collapsed by default.\n• Enhanced application security.",
+  "updateMessage": "Version 1.2.1 Stable is now available. This update is required to continue streaming."
 }
