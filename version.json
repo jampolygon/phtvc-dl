@@ -6,7 +6,7 @@
   "apkUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "downloadUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "forceUpdate": true,
-  "updateTitle": "Version 1.2 Stable Available",
-  "changelog": "PHTVC 1.2 Stable Highlights:\n• Audio Focus music auto-pause integration\n• 5-Minute background inactivity auto-exit\n• Collapsible Philippine & International channels sections\n• Real-time system volume and brightness sync\n• Rover and Phrolova core theme presets\n• Player error screens with full gesture blockers",
-  "updateMessage": "PHTVC 1.2 Stable is now available with audio focus background music auto-pausing, 5-minute auto-exit, hardware volume/brightness slider sync, collapsible categories, and Rover/Phrolova custom themes."
+  "updateTitle": "Important: APK Downloads Pausing Soon",
+  "changelog": "⚠️ Download Notice:\n• Direct APK downloads will be paused from July 27, 2026 (Monday) onwards.\n• PHTVC will enter indefinite maintenance mode after 3 days.\n• Version 1.2 includes audio focus auto-pause, 5-min auto-exit, & theme fixes.",
+  "updateMessage": "Direct APK downloads will be paused starting July 27, 2026 (Monday) onwards. Please update to Version 1.2 Stable now before downloads are paused."
 }
