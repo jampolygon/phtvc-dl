@@ -1,12 +1,12 @@
 {
-  "versionCode": 46,
-  "latestVersionCode": 46,
-  "versionName": "1.2.1 Stable",
-  "latestVersionName": "1.2.1 Stable",
+  "versionCode": 47,
+  "latestVersionCode": 47,
+  "versionName": "1.2.2 Stable",
+  "latestVersionName": "1.2.2 Stable",
   "apkUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "downloadUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "forceUpdate": true,
-  "updateTitle": "Important: Version 1.2.1 Update",
-  "changelog": "⚠️ Version 1.2.1 Update:\n• Full Picture-in-Picture (PiP) mode support.\n• Screen lock gestures blocker with floating unlock overlay.\n• Optimized player lifecycle during lock/unlock transitions.\n• Settings 6-card theme layout redesign.\n• Adaptive tablet grid layout columns.\n• Light theme contrast fixes.\n• International channels collapsed by default.\n• Enhanced application security.",
-  "updateMessage": "Version 1.2.1 Stable is now available. This update is required to continue streaming."
+  "updateTitle": "Important: Version 1.2.2 Update",
+  "changelog": "⚠️ Version 1.2.2 Update:\n• Resolved updater version synchronization issue.\n• Full Picture-in-Picture (PiP) mode support.\n• Screen lock gestures blocker with floating unlock overlay.\n• Optimized player lifecycle during lock/unlock transitions.\n• Settings 6-card theme layout redesign.\n• Adaptive tablet grid layout columns.\n• Light theme contrast fixes.\n• International channels collapsed by default.\n• Enhanced application security.",
+  "updateMessage": "Version 1.2.2 Stable is now available. This update is required to continue streaming."
 }
