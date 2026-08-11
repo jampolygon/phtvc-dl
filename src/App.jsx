@@ -32,7 +32,7 @@ export default function App() {
 
             {/* Center Author Name & Social Links */}
             <div className="flex items-center gap-2.5 text-slate-700 font-semibold opacity-90">
-              <span className="font-bold text-slate-900">JP Canoy</span>
+              <span className="font-bold text-slate-900">jampolygon</span>
               <span className="text-slate-400">•</span>
               
               {/* Portfolio Icon Link */}
