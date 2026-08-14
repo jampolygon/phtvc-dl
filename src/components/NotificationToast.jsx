@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
 
 export const NotificationToast = () => {
@@ -47,7 +47,7 @@ export const NotificationToast = () => {
           
           {/* Material You Pill Tag */}
           <div className="px-3 py-1 bg-purple-600 text-white text-[11px] font-extrabold rounded-full shadow-sm shadow-purple-600/30">
-            New Release v1.2.3
+            New Release v1.2.4
           </div>
 
           {/* Dismiss Button */}
@@ -64,10 +64,10 @@ export const NotificationToast = () => {
         {/* Notification Body */}
         <div className="text-left space-y-1">
           <h4 className="text-sm font-extrabold text-slate-900 tracking-tight">
-            PHTVC Version 1.2.3 Stable is live!
+            PHTVC Version 1.2.4 Stable is live!
           </h4>
           <p className="text-xs text-slate-600 font-medium leading-snug">
-            Featuring PiP mode, screen lock gestures blocker, adaptive tablet layouts, 6-card theme redesign, light theme fixes, and enhanced security.
+            Featuring instant stream shutdown for disabled channels, re-enabled developer announcements, system stability, and enhanced security.
           </p>
         </div>
 
@@ -75,3 +75,4 @@ export const NotificationToast = () => {
     </div>
   );
 };
+
