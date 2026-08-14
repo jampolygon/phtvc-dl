@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { MobileCarousel } from './MobileCarousel';
 import { DeveloperMessageModal } from './DeveloperMessageModal';
 import { QRCodeSVG } from 'qrcode.react';
@@ -23,7 +23,7 @@ export const HeroSection = () => {
           
           {/* Version Pill Badge */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-purple-100/80 border border-purple-200 text-purple-900 text-xs font-bold shadow-sm">
-            <span>Version 1.2.3 Stable Released</span>
+            <span>Version 1.2.4 Stable Released</span>
           </div>
 
           {/* Main Headline */}
@@ -54,8 +54,7 @@ export const HeroSection = () => {
                   <div className="text-[11px] font-medium text-slate-300 flex items-center justify-between">
                     <span>Direct APK</span>
                     <span className="text-[10px] px-2 py-0.5 bg-rose-500/20 text-rose-300 font-mono rounded-full font-bold">
-                      v1.2.3 Stable • ~50 MB
-                    </span>
+                      v1.2.4 Stable • ~50 MB</span>
                   </div>
                   <div className="text-base font-black tracking-tight text-white">
                     Download APK
@@ -93,7 +92,7 @@ export const HeroSection = () => {
 
           </div>
 
-          {/* Download Notice & Developer Message Button Row — HIDDEN for 1.2.1 */}
+          {/* Download Notice & Developer Message Button Row â€” HIDDEN for 1.2.1 */}
 
           {/* Google Play Protect Advice Card */}
           <div className="w-full p-3.5 rounded-2xl bg-amber-50/90 border border-amber-200/90 flex flex-col gap-1.5 text-xs text-amber-950 shadow-sm">
@@ -155,3 +154,4 @@ export const HeroSection = () => {
     </>
   );
 };
+
